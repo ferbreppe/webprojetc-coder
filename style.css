@@ -11,6 +11,21 @@ header{
     font-size: 20px
 }
 
+.navbar_style {
+    font-size: 15px;
+    background-color: #000000; }
+  
+.nav-link:hover {
+    border-bottom: 3p solid white;
+    transition: 0.3s; }
+  
+.navbar_style ul li a:hover {
+    color: #000000 !important;
+    border-bottom: 1px solid white; }
+  
+.navbar-nav .nav-link {
+    color: white !important; }
+
 
 main{
     background-image: url(Images/Imagen\ Principal.jpg);
@@ -29,6 +44,7 @@ main{
         justify-content: space-between;
     }
 }
+
 
 h2{
     text-transform: uppercase;
@@ -55,6 +71,12 @@ h3{
 #inicio p{
     text-align: center;
     padding: 1% 0;
+}
+
+#inicio img{
+    background-position: center;
+    padding: 30px;
+    margin: auto;
 }
 
 #autos{
