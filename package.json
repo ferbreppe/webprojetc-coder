@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-web-autos",
+  "version": "1.0.0",
+  "description": "Proyecto Web - Coderhouse \r Modificacion Index, css y bootstrap\r Midificacion de pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -12,7 +12,7 @@ header {
 }
 
 main {
-  background-image: url(Images/Imagen\ Principal.jpg);
+  background-image: url(/Images/Imagen\ Principal.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -122,6 +122,25 @@ footer {
   padding: 5px 0;
   text-align: center;
   font-size: small;
+}
+
+.navbar_style {
+  font-size: 15px;
+  background-color: #000000;
+}
+
+.nav-link:hover {
+  border-bottom: 3p solid white;
+  transition: 0.3s;
+}
+
+.navbar_style ul li a:hover {
+  color: #000000 !important;
+  border-bottom: 1px solid white;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
 }
 
 /*# sourceMappingURL=style.css.map */
