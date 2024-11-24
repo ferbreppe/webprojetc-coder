@@ -1,18 +1,15 @@
 .navbar_style {
     font-size: 15px;
-    background-color: #000000;
-}
-  
-.nav-link:hover {
-    border-bottom: 3p solid white;
-    transition: 0.3s;
-}
-  
-.navbar_style ul li a:hover {
-    color: #000000 !important;
-    border-bottom: 1px solid white;
-}
-  
-.navbar-nav .nav-link {
-    color: white !important;
+    background-color: $header-background;
+
+    .nav-link {
+        color: white;
+        padding: 10px;
+
+        &:hover {
+            color: $button-hover-background;
+            border-bottom: 2px solid white;
+            @include transition(color, 0.3s);
+        }
+    }
 }
